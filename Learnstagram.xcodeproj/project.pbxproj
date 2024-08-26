@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87B6F1732C7C5D200001A76F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B6F1722C7C5D200001A76F /* Persistence.swift */; };
+		87B6F1762C7C5D200001A76F /* Learnstagram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 87B6F1742C7C5D200001A76F /* Learnstagram.xcdatamodeld */; };
+		87B6F1782C7C5D200001A76F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B6F1772C7C5D200001A76F /* ContentView.swift */; };
+		87B6F17A2C7C5D220001A76F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87B6F1792C7C5D220001A76F /* Assets.xcassets */; };
+		87B6F17E2C7C5D220001A76F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87B6F17D2C7C5D220001A76F /* Preview Assets.xcassets */; };
+		87B6F1882C7C5D220001A76F /* LearnstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B6F1872C7C5D220001A76F /* LearnstagramTests.swift */; };
+		87B6F1922C7C5D220001A76F /* LearnstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B6F1912C7C5D220001A76F /* LearnstagramUITests.swift */; };
+		87B6F1942C7C5D220001A76F /* LearnstagramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B6F1932C7C5D220001A76F /* LearnstagramUITestsLaunchTests.swift */; };
+		87B6F1A12C7C5D700001A76F /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B6F1A02C7C5D700001A76F /* CardData.swift */; };
+		87B6F1A52C7C5EC10001A76F /* TopicSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B6F1A42C7C5EC10001A76F /* TopicSelectionView.swift */; };
+		87B6F1A72C7C5EDE0001A76F /* FlashcardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B6F1A62C7C5EDE0001A76F /* FlashcardView.swift */; };
+		87B6F1A92C7C63680001A76F /* LearnstagramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B6F1A82C7C63680001A76F /* LearnstagramApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87B6F1842C7C5D220001A76F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87B6F1652C7C5D200001A76F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87B6F16C2C7C5D200001A76F;
+			remoteInfo = Learnstagram;
+		};
+		87B6F18E2C7C5D220001A76F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87B6F1652C7C5D200001A76F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87B6F16C2C7C5D200001A76F;
+			remoteInfo = Learnstagram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87B6F16D2C7C5D200001A76F /* Learnstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Learnstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87B6F1722C7C5D200001A76F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		87B6F1752C7C5D200001A76F /* Learnstagram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Learnstagram.xcdatamodel; sourceTree = "<group>"; };
+		87B6F1772C7C5D200001A76F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = Learnstagram/ContentView.swift; sourceTree = "<group>"; };
+		87B6F1792C7C5D220001A76F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87B6F17B2C7C5D220001A76F /* Learnstagram.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Learnstagram.entitlements; sourceTree = "<group>"; };
+		87B6F17D2C7C5D220001A76F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		87B6F1832C7C5D220001A76F /* LearnstagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnstagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87B6F1872C7C5D220001A76F /* LearnstagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnstagramTests.swift; sourceTree = "<group>"; };
+		87B6F18D2C7C5D220001A76F /* LearnstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87B6F1912C7C5D220001A76F /* LearnstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnstagramUITests.swift; sourceTree = "<group>"; };
+		87B6F1932C7C5D220001A76F /* LearnstagramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnstagramUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		87B6F1A02C7C5D700001A76F /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
+		87B6F1A42C7C5EC10001A76F /* TopicSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicSelectionView.swift; sourceTree = "<group>"; };
+		87B6F1A62C7C5EDE0001A76F /* FlashcardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardView.swift; sourceTree = "<group>"; };
+		87B6F1A82C7C63680001A76F /* LearnstagramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnstagramApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87B6F16A2C7C5D200001A76F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87B6F1802C7C5D220001A76F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87B6F18A2C7C5D220001A76F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87B6F1642C7C5D200001A76F = {
+			isa = PBXGroup;
+			children = (
+				87B6F1A82C7C63680001A76F /* LearnstagramApp.swift */,
+				87B6F1A42C7C5EC10001A76F /* TopicSelectionView.swift */,
+				87B6F1A62C7C5EDE0001A76F /* FlashcardView.swift */,
+				87B6F1A02C7C5D700001A76F /* CardData.swift */,
+				87B6F1772C7C5D200001A76F /* ContentView.swift */,
+				87B6F16F2C7C5D200001A76F /* Learnstagram */,
+				87B6F1862C7C5D220001A76F /* LearnstagramTests */,
+				87B6F1902C7C5D220001A76F /* LearnstagramUITests */,
+				87B6F16E2C7C5D200001A76F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87B6F16E2C7C5D200001A76F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87B6F16D2C7C5D200001A76F /* Learnstagram.app */,
+				87B6F1832C7C5D220001A76F /* LearnstagramTests.xctest */,
+				87B6F18D2C7C5D220001A76F /* LearnstagramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87B6F16F2C7C5D200001A76F /* Learnstagram */ = {
+			isa = PBXGroup;
+			children = (
+				87B6F1722C7C5D200001A76F /* Persistence.swift */,
+				87B6F1792C7C5D220001A76F /* Assets.xcassets */,
+				87B6F17B2C7C5D220001A76F /* Learnstagram.entitlements */,
+				87B6F1742C7C5D200001A76F /* Learnstagram.xcdatamodeld */,
+				87B6F17C2C7C5D220001A76F /* Preview Content */,
+			);
+			path = Learnstagram;
+			sourceTree = "<group>";
+		};
+		87B6F17C2C7C5D220001A76F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				87B6F17D2C7C5D220001A76F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		87B6F1862C7C5D220001A76F /* LearnstagramTests */ = {
+			isa = PBXGroup;
+			children = (
+				87B6F1872C7C5D220001A76F /* LearnstagramTests.swift */,
+			);
+			path = LearnstagramTests;
+			sourceTree = "<group>";
+		};
+		87B6F1902C7C5D220001A76F /* LearnstagramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87B6F1912C7C5D220001A76F /* LearnstagramUITests.swift */,
+				87B6F1932C7C5D220001A76F /* LearnstagramUITestsLaunchTests.swift */,
+			);
+			path = LearnstagramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87B6F16C2C7C5D200001A76F /* Learnstagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87B6F1972C7C5D230001A76F /* Build configuration list for PBXNativeTarget "Learnstagram" */;
+			buildPhases = (
+				87B6F1692C7C5D200001A76F /* Sources */,
+				87B6F16A2C7C5D200001A76F /* Frameworks */,
+				87B6F16B2C7C5D200001A76F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Learnstagram;
+			productName = Learnstagram;
+			productReference = 87B6F16D2C7C5D200001A76F /* Learnstagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87B6F1822C7C5D220001A76F /* LearnstagramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87B6F19A2C7C5D230001A76F /* Build configuration list for PBXNativeTarget "LearnstagramTests" */;
+			buildPhases = (
+				87B6F17F2C7C5D220001A76F /* Sources */,
+				87B6F1802C7C5D220001A76F /* Frameworks */,
+				87B6F1812C7C5D220001A76F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87B6F1852C7C5D220001A76F /* PBXTargetDependency */,
+			);
+			name = LearnstagramTests;
+			productName = LearnstagramTests;
+			productReference = 87B6F1832C7C5D220001A76F /* LearnstagramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87B6F18C2C7C5D220001A76F /* LearnstagramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87B6F19D2C7C5D230001A76F /* Build configuration list for PBXNativeTarget "LearnstagramUITests" */;
+			buildPhases = (
+				87B6F1892C7C5D220001A76F /* Sources */,
+				87B6F18A2C7C5D220001A76F /* Frameworks */,
+				87B6F18B2C7C5D220001A76F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87B6F18F2C7C5D220001A76F /* PBXTargetDependency */,
+			);
+			name = LearnstagramUITests;
+			productName = LearnstagramUITests;
+			productReference = 87B6F18D2C7C5D220001A76F /* LearnstagramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87B6F1652C7C5D200001A76F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					87B6F16C2C7C5D200001A76F = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					87B6F1822C7C5D220001A76F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 87B6F16C2C7C5D200001A76F;
+					};
+					87B6F18C2C7C5D220001A76F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 87B6F16C2C7C5D200001A76F;
+					};
+				};
+			};
+			buildConfigurationList = 87B6F1682C7C5D200001A76F /* Build configuration list for PBXProject "Learnstagram" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87B6F1642C7C5D200001A76F;
+			productRefGroup = 87B6F16E2C7C5D200001A76F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87B6F16C2C7C5D200001A76F /* Learnstagram */,
+				87B6F1822C7C5D220001A76F /* LearnstagramTests */,
+				87B6F18C2C7C5D220001A76F /* LearnstagramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87B6F16B2C7C5D200001A76F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B6F17E2C7C5D220001A76F /* Preview Assets.xcassets in Resources */,
+				87B6F17A2C7C5D220001A76F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87B6F1812C7C5D220001A76F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87B6F18B2C7C5D220001A76F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87B6F1692C7C5D200001A76F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B6F1A12C7C5D700001A76F /* CardData.swift in Sources */,
+				87B6F1A72C7C5EDE0001A76F /* FlashcardView.swift in Sources */,
+				87B6F1762C7C5D200001A76F /* Learnstagram.xcdatamodeld in Sources */,
+				87B6F1A92C7C63680001A76F /* LearnstagramApp.swift in Sources */,
+				87B6F1782C7C5D200001A76F /* ContentView.swift in Sources */,
+				87B6F1A52C7C5EC10001A76F /* TopicSelectionView.swift in Sources */,
+				87B6F1732C7C5D200001A76F /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87B6F17F2C7C5D220001A76F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B6F1882C7C5D220001A76F /* LearnstagramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87B6F1892C7C5D220001A76F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B6F1922C7C5D220001A76F /* LearnstagramUITests.swift in Sources */,
+				87B6F1942C7C5D220001A76F /* LearnstagramUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87B6F1852C7C5D220001A76F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87B6F16C2C7C5D200001A76F /* Learnstagram */;
+			targetProxy = 87B6F1842C7C5D220001A76F /* PBXContainerItemProxy */;
+		};
+		87B6F18F2C7C5D220001A76F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87B6F16C2C7C5D200001A76F /* Learnstagram */;
+			targetProxy = 87B6F18E2C7C5D220001A76F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		87B6F1952C7C5D220001A76F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87B6F1962C7C5D220001A76F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		87B6F1982C7C5D230001A76F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Learnstagram/Learnstagram.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Learnstagram/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.getawakeapp.Learnstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87B6F1992C7C5D230001A76F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Learnstagram/Learnstagram.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Learnstagram/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.getawakeapp.Learnstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		87B6F19B2C7C5D230001A76F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.getawakeapp.LearnstagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learnstagram.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Learnstagram";
+			};
+			name = Debug;
+		};
+		87B6F19C2C7C5D230001A76F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.getawakeapp.LearnstagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learnstagram.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Learnstagram";
+			};
+			name = Release;
+		};
+		87B6F19E2C7C5D230001A76F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.getawakeapp.LearnstagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Learnstagram;
+			};
+			name = Debug;
+		};
+		87B6F19F2C7C5D230001A76F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.getawakeapp.LearnstagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Learnstagram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87B6F1682C7C5D200001A76F /* Build configuration list for PBXProject "Learnstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87B6F1952C7C5D220001A76F /* Debug */,
+				87B6F1962C7C5D220001A76F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87B6F1972C7C5D230001A76F /* Build configuration list for PBXNativeTarget "Learnstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87B6F1982C7C5D230001A76F /* Debug */,
+				87B6F1992C7C5D230001A76F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87B6F19A2C7C5D230001A76F /* Build configuration list for PBXNativeTarget "LearnstagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87B6F19B2C7C5D230001A76F /* Debug */,
+				87B6F19C2C7C5D230001A76F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87B6F19D2C7C5D230001A76F /* Build configuration list for PBXNativeTarget "LearnstagramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87B6F19E2C7C5D230001A76F /* Debug */,
+				87B6F19F2C7C5D230001A76F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		87B6F1742C7C5D200001A76F /* Learnstagram.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				87B6F1752C7C5D200001A76F /* Learnstagram.xcdatamodel */,
+			);
+			currentVersion = 87B6F1752C7C5D200001A76F /* Learnstagram.xcdatamodel */;
+			path = Learnstagram.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 87B6F1652C7C5D200001A76F /* Project object */;
+}
