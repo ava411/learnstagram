@@ -7,23 +7,21 @@
 
 import Foundation
 
-struct Flashcard: Identifiable, Codable {
-    var id: UUID // Changed from 'let' to 'var'
-    let content: String // Renamed from 'question' to 'content'
+struct Flashcard: Identifiable, Codable, Equatable { // Add Equatable here
+    var id: UUID
+    let content: String
 
-    // Custom initializer to allow for decoding
     init(id: UUID = UUID(), content: String) {
         self.id = id
         self.content = content
     }
 }
 
-struct Topic: Identifiable {
-    var id: UUID // Changed from 'let' to 'var'
+struct Topic: Identifiable, Equatable { // Equatable conformance
+    var id: UUID
     let name: String
     let flashcards: [Flashcard]
 
-    // Custom initializer to allow for decoding
     init(id: UUID = UUID(), name: String, flashcards: [Flashcard]) {
         self.id = id
         self.name = name
